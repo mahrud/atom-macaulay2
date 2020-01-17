@@ -1,0 +1,25 @@
+'.platform-darwin atom-workspace':
+  'cmd-alt-t': 'atom-macaulay2:new'
+  'cmd-shift-j': 'atom-macaulay2:prev'
+  'cmd-shift-k': 'atom-macaulay2:next'
+  'cmd-shift-x': 'atom-macaulay2:close'
+  'cmd-alt-f': 'atom-macaulay2:focus'
+  'ctrl-`': 'atom-macaulay2:toggle'
+  'ctrl-alt-enter': 'atom-macaulay2:send-to-program'
+
+'.platform-linux atom-workspace, .platform-win32 atom-workspace':
+  'f12': 'atom-macaulay2:new'
+  'f9': 'atom-macaulay2:send-to-program'
+  'alt-shift-j': 'atom-macaulay2:prev'
+  'alt-shift-k': 'atom-macaulay2:next'
+  'alt-shift-x': 'atom-macaulay2:close'
+  'ctrl-`': 'atom-macaulay2:toggle'
+  'ctrl-alt-f': 'atom-macaulay2:focus'
+
+'.platform-darwin .atom-macaulay2 .terminal':
+  'cmd-c': 'atom-macaulay2:copy'
+  'cmd-v': 'atom-macaulay2:paste'
+
+'.platform-linux .atom-macaulay2 .terminal, .platform-win32 .atom-macaulay2 .terminal':
+  'alt-v': 'atom-macaulay2:paste'
+  'alt-c': 'atom-macaulay2:copy'

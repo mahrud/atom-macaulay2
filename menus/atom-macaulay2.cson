@@ -1,0 +1,45 @@
+'context-menu':
+  '.atom-macaulay2 .pio-terminal-status-icon': [
+    {label: 'Hide', command: 'atom-macaulay2:context-hide'},
+    {label: 'Rename', command: 'atom-macaulay2:context-rename'},
+    {label: 'Close', command: 'atom-macaulay2:context-close'}
+  ]
+  '.atom-macaulay2 .terminal': [
+    {label: 'Copy', command: 'atom-macaulay2:copy'},
+    {label: 'Paste', command: 'atom-macaulay2:paste'},
+    {type: 'separator'},
+    {label: 'Hide', command: 'atom-macaulay2:hide'},
+    {label: 'Close', command: 'atom-macaulay2:close'}
+    {type: 'separator'}
+    {label: "Clear", command: 'atom-macaulay2:clear'}
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'atom-macaulay2'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'atom-macaulay2:toggle'
+        },
+        {
+          'label': 'Focus'
+          'command': 'atom-macaulay2:focus'
+        },
+        {
+          'label': 'New Terminal'
+          'command': 'atom-macaulay2:new'
+        },
+        {
+          'label': 'Toggle Fullscreen'
+          'command': 'atom-macaulay2:fullscreen'
+        },
+        {
+          'label': 'Close Terminal'
+          'command': 'atom-macaulay2:close'
+        }
+      ]
+    ]
+  }
+]
